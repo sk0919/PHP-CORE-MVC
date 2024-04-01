@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b4e9f3;
+}
+/* Container view styles */
+.container {
+    padding: 20px; /* Add padding to the container */
+    background-color: #f9f9f9; /* Set a light background color */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Round the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+/* Center the container horizontally */
+.container {
+    margin: 0 auto;
+    max-width: 800px; /* Adjust the maximum width as needed */
+}
+
+/* Add some spacing between child elements within the container */
+.container h1,
+.container p {
+    margin-bottom: 10px;
+}
+
+
+
+
+

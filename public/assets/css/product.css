@@ -1,0 +1,19 @@
+/* Product grid view code below*/
+
+.product-container {
+    display: grid;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Add spacing between items */
+}
+
+.item {
+    background-color: #96e0ee;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and borders in width/height */
+}
+

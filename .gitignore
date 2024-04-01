@@ -1,0 +1,17 @@
+# Ignore the uploads directory inside the public folder
+/public/uploads/
+
+# Ignore logs files
+/logs/
+
+# Ignore typical, necessary PHP files
+/vendor/
+/composer.lock
+/composer.phar
+/composer.json
+
+# Ignore .env files as they usually contain sensitive information
+/.env
+
+# Ignore PHPStorm project files
+/.idea/

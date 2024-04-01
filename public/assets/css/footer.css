@@ -1,0 +1,35 @@
+/* Style the footer container */
+.footer {
+    background-color: #3f7e8b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the footer links */
+.footer a {
+    color: #96e0ee;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Change link color on hover */
+.footer a:hover {
+    color: dodgerblue;
+}
+
+
+/* Adjust font sizes and spacing as needed */
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer a {
+        margin: 10px 0; /* Add spacing between links */
+    }
+}

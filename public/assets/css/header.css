@@ -1,0 +1,76 @@
+/* Style the header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5fbdd0;
+    padding: 10px 10px;
+}
+
+/* Style the logo link */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Style the header links */
+.header-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* Highlight the active link */
+.header-right a.active {
+    color: dodgerblue;
+}
+
+/*logo code  */
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    padding: 20px;
+
+    
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    /* Replace the URL with your actual logo image */
+    background-image: url('../images/logo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .header-right {
+        margin-top: 10px; /* Add some spacing between links */
+    }
+}

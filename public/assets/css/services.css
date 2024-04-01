@@ -1,0 +1,13 @@
+.services-container {
+    display: grid;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Add spacing between items */
+}
+
+.services-list{
+    background-color: rgb(64, 236, 141);
+}

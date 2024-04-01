@@ -1,0 +1,56 @@
+=========================================================================================================================================================================
+=========================================================================================================================================================================
+Create Mysql queries for following objective.
+1. create table product in which id(auto), varchar product_name not null, description not null, img_location not  null, created_date not null, updated_date, deleted_date,  
+2. create table services in which id(auto), varchar service_name not null, description not null, created_date not null, updated_date, deleted_date, 
+3. create table user in which id(auto), varchar full_name not null, varchar user_name not null, description not null, img_location not  null, created_date not null, updated_date, deleted_date,
+4. create table contact_us in which  id(auto), varchar service_name not null, description not null, created_date not null, updated_date, deleted_date
+
+
+Date will be inserted when front-end triggers some functionality not by database side automatically
+
+
+
+=========================================================================================================================================================================
+=========================================================================================================================================================================
+
+Info about the product table
+-------------------------------
+1. Admin can crud the products, but ordinary product can only view the products
+2. created_date is mandatory column while creating the new product.
+3. updated_date, deleted_date can only be utilized by admin only
+4. image_location will contain image of product which was uploaded from the front-end.
+
+Info about the User table
+-------------------------------
+1. user can cru the products, and can only view the products
+2. created_date is mandatory column while creating the new user.
+3. updated_date, can only be utilized when user updates his info.
+4. use can only delete his account by requesting through the contact_us page through the drop down
+4. password with md5
+
+Info about the Contact_us table (we can add admins from here )
+-------------------------------
+1. Super admin can crud the information about the admin.
+2. This table will contain information about the admin (name, role: hidden from user,priviledges : 0 or 1 means admin,email) only
+3. created_date is mandatory column while creating the new admin.
+3. updated_date, deleted_date, can only be utilized when super-admin updates the info about the admin
+4. use can only delete his account by requesting through the contact_us page through the drop down
+
+
+Info about the product table
+-------------------------------
+1. Admin can crud the products, but ordinary product can only view the products
+2. created_date is mandatory column while creating the new product.
+3. updated_date, deleted_date can only be utilized by admin only
+4. image_location will contain image of product which was uploaded from the front-end.
+
+Info about the services table
+-------------------------------
+1. Admin can crud the services, but ordinary product can only view the services
+2. created_date is mandatory column while creating the new services.
+3. updated_date, deleted_date can only be utilized by admin only
+4. image_location will contain image of services which was uploaded from the front-end.
+
+=========================================================================================================================================================================
+=========================================================================================================================================================================
